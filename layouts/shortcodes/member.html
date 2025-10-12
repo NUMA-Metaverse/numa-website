@@ -1,0 +1,18 @@
+{{- $group := .Get "group" | default "" -}}
+{{- $univ := .Get "univ" | default "" -}}
+
+<style>
+
+</style>
+
+<span style="display: flex;">
+{{ with .Params.group }}
+<h2> {{ . }} </h2>
+{{ end }}
+
+{{ with .Params.univ }}
+<p style="margin: 3rem 5rem 0rem 0rem;"> {{ . }} </p>
+{{ end }}
+</span>
+
+<hr style="margin: 0rem 0rem 5rem 0rem;">

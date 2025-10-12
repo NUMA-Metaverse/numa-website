@@ -1,0 +1,112 @@
+# サイトの基本設定
+baseURL: "/" # サイトの公開URL（重要：必ず完全なURLにしてください）
+title: "NUMA - Nippon Universities Metaverse Alliance"
+copyright: "© [NUMA - Nippon Universities Metaverse Alliance](https://numa-meta.com/)"
+theme: PaperMod
+defaultContentLanguage: ja
+
+# Hugoのビルド設定
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+mainsections: ["posts"]
+
+# キャッシュ設定
+caches:
+  images:
+    dir: :cacheDir/images
+
+# 出力コンテンツの最適化設定
+minify:
+  disableXML: true
+
+# ページネーション設定
+pagination:
+  pagerSize: 5
+
+# 言語設定
+languages:
+  ja:
+    languageName: "日本語"
+    weight: 1
+    title: "NUMA - Nippon Universities Metaverse Alliance"
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: "NUMAについて"
+          url: /aboutus
+          weight: 1
+        - name: "加盟団体"
+          url: /members
+          weight: 2
+        - name: "活動記録"
+          url: /
+          weight: 3
+        - name: "Twitter"
+          url: "https://x.com/numa_meta_"
+          weight: 5
+
+# 出力フォーマット
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# テーマ（PaperMod）のパラメータ設定
+params:
+  env: production
+  description: "NUMA Nippon Universities Metaverse Allianceの公式サイトです。Nippon Universities Metaverse Alliance (NUMA) は、全国のメタバースサークルの技術と情報を結集し、各サークルの活動を横断的に支援するために設立された、全国のメタバースサークルの連合体です。"
+  author: "NUMA - Nippon Universities Metaverse Alliance"
+
+  # --- 表示と機能の切り替え ---
+  defaultTheme: "light" # "auto", "light", "dark" から選択
+  disableThemeToggle: true # trueにするとテーマ切り替えボタンを非表示
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: false
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+
+  # --- ホームページの設定 ---
+  homeInfoParams:
+    Title: "NUMA - 活動記録"
+    Content: >
+      👋 Welcome to NUMA's Blog!
+
+  # --- アセット（CSS, faviconなど）の設定 ---
+  assets:
+    customCSS: ["css/home-info.css"]
+    favicon: "favicon/favicon.ico"
+    disableHLJS: true # PaperMod内蔵のハイライトJSを無効化（Hugo標準のハイライト機能を使うため）
+
+  # --- SNSアイコン（必要に応じてコメントを外してURLを設定） ---
+  # socialIcons:
+  #   - name: X
+  #     url: "https://x.com/numa_meta_"
+  #   - name: Discord
+  #     url: ""
+
+# Markdownのレンダリング設定
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Markdown内でHTMLタグを許可する
+  highlight:
+    noClasses: false # シンタックスハイライトにCSSクラスを使用する（Hugoの標準的な方法）
+
+# 外部サービス連携の設定（必要に応じてコメントを外す）
+# services:
+#   instagram:
+#     disableInlineCSS: true
+#   twitter: # x.com へのエイリアス
+#     disableInlineCSS: true

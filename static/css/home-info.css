@@ -1,0 +1,10 @@
+.home-info {
+    display: block !important;
+    min-height: unset !important;
+    height: 360px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  

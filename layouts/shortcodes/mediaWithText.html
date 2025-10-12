@@ -1,0 +1,57 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $h   := .Get "h"   | default "80" -}}
+{{- $gap := .Get "gap" | default "12px" -}}
+{{- $res := or (.Page.Resources.Get $src) (resources.Get $src) -}}
+{{- if not $res }}{{ errorf "media shortcode: %q not found" $src }}{{ end -}}
+
+{{/* 画像の実体サイズを高さ基準で最適化（SVGはそのまま） */}}
+{{- $img := cond (strings.HasSuffix (lower $res.Name) ".svg")
+      $res
+      ($res.Fit (printf "2000x%v webp" $h)) -}}
+
+<style>
+  .grid-split {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    /* min-height: 100svh; */
+    align-items: center;       /* テキスト垂直中央 */
+    gap: 0;
+  }
+  .grid-split img { width: 100%; height: 100%; object-fit: cover; }
+  /* .grid-split .text { padding: 4rem 3rem; } */
+  .grid-split .text { padding: 0rem 0rem 2rem 3rem; }
+
+  @media (max-width: 768px) {
+    .grid-split { grid-template-columns: 1fr; }
+    .grid-split .image { height: 50vh; }
+  }
+</style>
+
+<section class="grid-split">
+  <figure class="image"><img src="{{ $img.RelPermalink }}" alt=""></figure>
+  <div class="text media-row__body">
+    {{ .Inner | .Page.RenderString }}  {{/* 中身に Markdown を書ける */}}
+  </div>
+</section>
+
+<!-- <section class="media-row" style="--img-h:{{ $img.Height }}px; --gap:{{ $gap }};">
+  <figure class="image">  
+    <img class="media-row__img" src="{{ $img.RelPermalink }}"
+       width="{{ $img.Width }}" height="{{ $img.Height }}"
+       alt="{{ $alt }}" loading="lazy" decoding="async">
+  </figure>
+  <div class="text media-row__body">
+    {{ .Inner | .Page.RenderString }}  {{/* 中身に Markdown を書ける */}}
+  </div>
+</section> -->
+
+<!-- 
+<div class="media-row" style="--img-h:{{ $img.Height }}px; --gap:{{ $gap }};">
+  <img class="media-row__img" src="{{ $img.RelPermalink }}"
+       width="{{ $img.Width }}" height="{{ $img.Height }}"
+       alt="{{ $alt }}" loading="lazy" decoding="async">
+  <div class="media-row__body">
+    {{ .Inner | .Page.RenderString }}  {{/* 中身に Markdown を書ける */}}
+  </div>
+</div> -->
