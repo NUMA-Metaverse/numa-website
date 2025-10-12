@@ -1,5 +1,5 @@
 # サイトの基本設定
-baseURL: "/" # サイトの公開URL（重要：必ず完全なURLにしてください）
+baseURL: "https://numa-meta.com/" # サイトの公開URL（重要：必ず完全なURLにしてください）
 title: "NUMA - Nippon Universities Metaverse Alliance"
 copyright: "© [NUMA - Nippon Universities Metaverse Alliance](https://numa-meta.com/)"
 theme: PaperMod
