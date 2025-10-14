@@ -81,7 +81,7 @@ params:
   homeInfoParams:
     Title: "NUMA - 活動記録"
     Content: >
-      👋 Welcome to NUMA's Blog!
+      👋🏻 Welcome to NUMA's Blog!
 
   # --- アセット（CSS, faviconなど）の設定 ---
   assets:
