@@ -45,8 +45,8 @@ languages:
         - name: "加盟団体"
           url: /members
           weight: 2
-        - name: "ブログ"
-          url: /blogs
+        - name: "活動記録"
+          url: /posts
           weight: 3
         - name: "Twitter"
           url: "https://x.com/numa_meta_"
