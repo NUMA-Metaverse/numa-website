@@ -1,5 +1,6 @@
 {{- $src := .Get "src" -}}
-{{- $alt := .Get "alt" | default "" -}}
+{{- $name := .Get "name" | default "" -}}
+{{- $remarks := .Get "remarks" | default "" -}}
 {{- $h   := .Get "h"   | default "80" -}}
 {{- $gap := .Get "gap" | default "12px" -}}
 {{- $res := or (.Page.Resources.Get $src) (resources.Get $src) -}}
@@ -18,40 +19,55 @@
     align-items: center;       /* テキスト垂直中央 */
     gap: 0;
   }
+  
   .grid-split img { width: 100%; height: 100%; object-fit: cover; }
-  /* .grid-split .text { padding: 4rem 3rem; } */
-  .grid-split .text { padding: 0rem 0rem 2rem 3rem; }
+  .grid-split .text { padding: 0 0 2rem 3rem; }
+
+  .member-name {
+    margin: 0 0 0.25rem 0 !important;
+  }
+
+  .member-remarks {
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .text hr { margin: 1.25rem 0 1rem 0; }
 
   @media (max-width: 768px) {
-    .grid-split { grid-template-columns: 1fr; }
-    .grid-split .image { height: 50vh; }
+    .grid-split {
+      grid-template-columns: 3fr 6fr;
+      padding: 0 0 1rem 0; 
+    }
+    .grid-split .text {
+      padding: 0 0 0 1.5rem; 
+    }
+    .text hr { display: none;}
+    .member-name { 
+      font-size: 1.5rem !important;
+    }
+    .member-remarks {
+      font-size: 0.9rem;
+      margin: 0 0 0.5rem 0 !important;
+    }
+    .text li { margin: 0.5rem 0; }
+    .grid-split img { width: 100%; height: 100%; object-fit: cover; }
+    
   }
 </style>
 
 <section class="grid-split">
-  <figure class="image"><img src="{{ $img.RelPermalink }}" alt=""></figure>
+  <figure class="image">
+    <img 
+      src="{{ $img.RelPermalink }}" 
+      alt="{{ $name }}">
+  </figure>
   <div class="text media-row__body">
+    <span>
+      <h2 class="member-name">{{ $name }}</h2>
+      <p class="member-remarks">{{ $remarks }}</p>
+    </span>
     {{ .Inner | .Page.RenderString }}  {{/* 中身に Markdown を書ける */}}
   </div>
 </section>
-
-<!-- <section class="media-row" style="--img-h:{{ $img.Height }}px; --gap:{{ $gap }};">
-  <figure class="image">  
-    <img class="media-row__img" src="{{ $img.RelPermalink }}"
-       width="{{ $img.Width }}" height="{{ $img.Height }}"
-       alt="{{ $alt }}" loading="lazy" decoding="async">
-  </figure>
-  <div class="text media-row__body">
-    {{ .Inner | .Page.RenderString }}  {{/* 中身に Markdown を書ける */}}
-  </div>
-</section> -->
-
-<!-- 
-<div class="media-row" style="--img-h:{{ $img.Height }}px; --gap:{{ $gap }};">
-  <img class="media-row__img" src="{{ $img.RelPermalink }}"
-       width="{{ $img.Width }}" height="{{ $img.Height }}"
-       alt="{{ $alt }}" loading="lazy" decoding="async">
-  <div class="media-row__body">
-    {{ .Inner | .Page.RenderString }}  {{/* 中身に Markdown を書ける */}}
-  </div>
-</div> -->
