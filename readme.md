@@ -92,5 +92,5 @@
 - なぜ GitHub Pages なのか？
   - 無料，GitHub のなかで収まり外部サービスの利用をしなくて済む
 - なぜ public repo なのか？
-- GitHub Pages にて無料で host するには public である必要がある
-- 既存の generator+既存の theme による構成であり，live site から直接得られる情報と実質的に変わらない
+  - GitHub Pages にて無料で host するには public である必要がある
+  - 既存の generator+既存の theme による構成であり，live site から直接得られる情報と実質的に変わらない
