@@ -65,6 +65,7 @@ description: "NUMAに加盟している全国の大学メタバースサーク�
     h="256" >}}
 ---
 - [公式サイト](https://utvirtual.tech/)
+- [公式Xアカウント](https://x.com/UT_virtual)
 {{< /mediaWithText >}}
 
 {{< mediaWithText 
