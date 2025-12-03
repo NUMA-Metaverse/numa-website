@@ -26,15 +26,15 @@ cover:
 ---
 
 twilight_nolyは、つながりをXRの文脈で捉え、さまざまな角度からつながりを紐解いていきました。「現実もVRもどっちも楽しんでこそ」という言葉にはVRへの想いが確かに込められているように思います。
-<center><img src="/posts/blogs/XRKaigi2025/02.png" width="90%">
+<center><img src="02.png" width="90%">
 twilight_noly 「つながりを紐解く」</center><br>
 
 次に登壇したまーしゅは、NUMAに加盟するサークルの1つである山形大学VR部の副代表として、サークルの紹介・NUMAにおいて目指す立ち位置とともに、その課題についても語りました。そんな彼の力によって、確かに山形大学VR部は力強く活動を続けています。
-<center><img src="/posts/blogs/XRKaigi2025/03.png" width="90%">
+<center><img src="03.png" width="90%">
 まーしゅ 「地方VRサークルの未来とNUMA」</center><br>
 
 最後に登壇した落雁.jpは、NUMAの代表として、NUMAそのものの紹介を行いました。さらに、なぜ今NUMAを運営しているのか、これから何を実現していくのかを語りました。私は、サークルが健全に、長く続いていてほしいと願っています。
-<center><img src="/posts/blogs/XRKaigi2025/04.png" width="90%">
+<center><img src="04.png" width="90%">
 落雁.jp 「NUMAで実現すること」</center><br>
 
 ---
