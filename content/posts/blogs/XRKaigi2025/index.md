@@ -1,5 +1,5 @@
 ---
-title: "XR Kaigi 2025 セッション登壇"
+title: "XR Kaigi 2025 セッション登壇をしました"
 date: 2025-12-03T17:24:30+09:00
 categories: ["Blog"]
 author: "落雁.jp"
