@@ -1,7 +1,7 @@
 # サイトの基本設定
 baseURL: "https://numa-meta.com/" # サイトの公開URL（重要：必ず完全なURLにしてください）
 title: "NUMA - Nippon Universities Metaverse Alliance"
-copyright: "© [NUMA - Nippon Universities Metaverse Alliance](https://numa-meta.com/)"
+copyright: "© [NUMA 全日本大学メタバース連盟](https://numa-meta.com/)"
 theme: PaperMod
 defaultContentLanguage: ja
 
@@ -32,7 +32,7 @@ languages:
   ja:
     languageName: "日本語"
     weight: 1
-    title: "NUMA - Nippon Universities Metaverse Alliance"
+    title: "NUMA 全日本大学メタバース連盟"
     taxonomies:
       category: categories
       tag: tags
@@ -45,9 +45,12 @@ languages:
         - name: "加盟団体"
           url: /members
           weight: 2
-        - name: "活動記録"
+        - name: "Posts"
           url: /posts
           weight: 3
+        - name: "Tags"
+          url: /tags
+          weight: 4
         - name: "Twitter"
           url: "https://x.com/numa_meta_"
           weight: 5
@@ -62,26 +65,26 @@ outputs:
 # テーマ（PaperMod）のパラメータ設定
 params:
   env: production
-  description: "NUMA Nippon Universities Metaverse Allianceの公式サイトです。Nippon Universities Metaverse Alliance (NUMA) は、全国のメタバースサークルの技術と情報を結集し、各サークルの活動を横断的に支援するために設立された、全国のメタバースサークルの連合体です。"
-  author: "NUMA - Nippon Universities Metaverse Alliance"
+  description: "NUMA 全日本大学メタバース連盟の公式サイトです。NUMA (Nippon Universities Metaverse Alliance)は、日本全国のXR・メタバース系サークルの互助を実現する組織です。様々な知見を集積するだけでなく、お互いに切磋琢磨できる環境も実現します。"
+  author: "NUMA 全日本大学メタバース連盟"
 
   # --- 表示と機能の切り替え ---
   defaultTheme: "light" # "auto", "light", "dark" から選択
   disableThemeToggle: true # trueにするとテーマ切り替えボタンを非表示
-  ShowShareButtons: false
+  ShowShareButtons: true
   ShowPostNavLinks: true
-  ShowBreadCrumbs: false
+  ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
-  ShowRssButtonInSectionTermList: false
+  ShowRssButtonInSectionTermList: true
   ShowAllPagesInArchive: true
   ShowPageNums: true
   ShowToc: true
 
   # --- ホームページの設定 ---
   homeInfoParams:
-    Title: "NUMA - 活動記録"
+    Title: "ホーム"
     Content: >
-      👋🏻 Welcome to NUMA's Blog!
+      🤝NUMAは日本全国のXR・メタバース系サークルの互助組織を目指します。
 
   # --- アセット（CSS, faviconなど）の設定 ---
   assets:
