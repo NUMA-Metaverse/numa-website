@@ -45,9 +45,12 @@ languages:
         - name: "加盟団体"
           url: /members
           weight: 2
-        - name: "活動記録"
+        - name: "Posts"
           url: /posts
           weight: 3
+        - name: "Tags"
+          url: /tags
+          weight: 4
         - name: "Twitter"
           url: "https://x.com/numa_meta_"
           weight: 5
@@ -79,9 +82,9 @@ params:
 
   # --- ホームページの設定 ---
   homeInfoParams:
-    Title: "NUMA - 公式ホームページ"
+    Title: "ホーム"
     Content: >
-      🤝日本全国のXR・メタバース系サークルの互助組織
+      🤝NUMAは日本全国のXR・メタバース系サークルの互助組織を目指します。
 
   # --- アセット（CSS, faviconなど）の設定 ---
   assets:
