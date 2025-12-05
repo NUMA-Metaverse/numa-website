@@ -39,21 +39,24 @@ languages:
       series: series
     menu:
       main:
-        - name: "NUMAについて"
+        - name: "NUMAとは"
           url: /aboutus
           weight: 1
         - name: "加盟団体"
           url: /members
           weight: 2
+        - name: "パートナー・協賛"
+          url: /with-us
+          weight: 3
         - name: "Posts"
           url: /posts
-          weight: 3
+          weight: 5
         - name: "Tags"
           url: /tags
-          weight: 4
-        - name: "Twitter"
+          weight: 6
+        - name: "X"
           url: "https://x.com/numa_meta_"
-          weight: 5
+          weight: 10
 
 # 出力フォーマット
 outputs:
