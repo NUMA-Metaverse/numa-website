@@ -1,0 +1,132 @@
+- id: "ous-metaverse"
+  name: "OUS Metaverse"
+  university: "岡山理科大学"
+  logo: "ous-metaverse.png"
+  links:
+    - label: "公式Xアカウント"
+      url: "https://twitter.com/OusMetaverse"
+
+- id: "kait-vr"
+  name: "KAIT VR"
+  university: "神奈川工科大学"
+  logo: "kait-vr.png"
+  links:
+    - label: "公式Xアカウント"
+      url: "https://x.com/KaitVR_info"
+
+- id: "ku-virtual"
+  name: "KU-virtual"
+  university: "京都大学"
+  logo: "ku-virtual.png"
+  links:
+    - label: "公式Xアカウント"
+      url: "https://twitter.com/KU_virtual"
+
+- id: "seika-vr"
+  name: "京都精華大学VR部"
+  university: "京都精華大学"
+  logo: "seika-vr.png"
+  links:
+    - label: "紹介ページ"
+      url: "https://www.kyoto-seika.ac.jp/campuslife/club/c25.html"
+    - label: "公式Xアカウント"
+      url: "https://x.com/seika_vr"
+
+- id: "svrc"
+  name: "SVRC"
+  university: "慶應義塾大学"
+  logo: "svrc.png"
+  links:
+    - label: "公式サイト"
+      url: "https://sites.google.com/keio.jp/svrc/"
+    - label: "公式Xアカウント"
+      url: "https://twitter.com/sfcvr"
+
+- id: "ut-virtual"
+  name: "UT-virtual"
+  university: "東京大学"
+  logo: "ut-virtual.png"
+  links:
+    - label: "公式サイト"
+      url: "https://utvirtual.tech/"
+    - label: "公式Xアカウント"
+      url: "https://x.com/UT_virtual"
+
+- id: "tzuvss"
+  name: "仮想空間研究会"
+  university: "東京造形大学"
+  logo: "tzuvss.png"
+  links:
+    - label: "公式Xアカウント"
+      url: "https://x.com/TZUVSS"
+
+- id: "tohoku-metaverse"
+  name: "東北大学メタバース研究会"
+  university: "東北大学"
+  logo: "tohoku-metaverse.png"
+  links:
+    - label: "公式YouTube"
+      url: "https://www.youtube.com/@MetaverseTohoku"
+    - label: "公式Xアカウント"
+      url: "https://twitter.com/metaversetohoku"
+
+- id: "nu-metasou"
+  name: "Nu.メタ創"
+  university: "日本大学"
+  logo: "nu-metasou.png"
+  links:
+    - label: "公式サイト"
+      url: "https://nu-meta.vercel.app/"
+    - label: "公式Xアカウント"
+      url: "https://x.com/nuMetasou"
+
+- id: "hit-metaverse"
+  name: "HIT Metaverse"
+  university: "広島工業大学"
+  logo: "hit-metaverse.png"
+  links:
+    - label: "公式Xアカウント"
+      url: "https://twitter.com/HIT_Metaverse"
+    - label: "公式Instagram"
+      url: "https://www.instagram.com/hit_metaverse"
+
+- id: "hokkaido-metaverse"
+  name: "北海道大学メタバース研究会"
+  university: "北海道大学"
+  logo: "hokkaido-metaverse.png"
+  links:
+    - label: "公式Xアカウント"
+      url: "https://x.com/HU_Metaverse"
+
+- id: "blueprint"
+  name: "BluePrint"
+  university: "立命館大学"
+  logo: "blueprint.png"
+  links:
+    - label: "公式Xアカウント"
+      url: "https://twitter.com/Meta_BluePrint"
+
+- id: "yamagata-vr"
+  name: "山形大学VR部"
+  university: "山形大学"
+  logo: "yamagata-vr.jpg"
+  links:
+    - label: "公式サイト"
+      url: "https://virtual.yamagata.jp/"
+    - label: "公式Xアカウント"
+      url: "https://twitter.com/vr_yamagata"
+
+- id: "fugu"
+  name: "FUGU"
+  university: "山口VRサークル"
+  logo: "fugu.png"
+  links:
+    - label: "公式サイト"
+      url: "https://yamaguchi-vr-fugu.vercel.app/"
+    - label: "公式Xアカウント"
+      url: "https://x.com/Y_vr_FUGU"
+
+- id: "prmn-vr"
+  name: "公立千歳科学技術大学 プロジェクトメンバーVR班"
+  university: "公立千歳科学技術大学"
+  logo: "prmn-vr.jpg"

@@ -1,0 +1,84 @@
+<style>
+  .grid-split {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    gap: 0;
+    margin-bottom: 2rem;
+  }
+  .grid-split img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .grid-split .text {
+    padding: 0 0 2rem 3rem;
+  }
+  .member-name {
+    margin: 0 0 0.25rem 0 !important;
+  }
+  .member-remarks {
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 0;
+  }
+  .text hr {
+    margin: 1.25rem 0 1rem 0;
+  }
+
+  @media (max-width: 768px) {
+    .grid-split {
+      grid-template-columns: 3fr 6fr;
+      padding: 0 0 1rem 0;
+    }
+    .grid-split .text {
+      padding: 0 0 0 1.5rem;
+    }
+    .text hr {
+      display: none;
+    }
+    .member-name {
+      font-size: 1.5rem !important;
+    }
+    .member-remarks {
+      font-size: 0.9rem;
+      margin: 0 0 0.5rem 0 !important;
+    }
+  }
+</style>
+
+{{- range .Site.Data.circles.list -}} {{- $res := "" -}} {{- /* 1.
+logoフィールドがある場合、パスを組み立てて取得を試みる */ -}} {{- if .logo -}}
+{{- $path := (printf "images/circles/%s" .logo) -}} {{- $res = resources.Get
+$path -}} {{- end -}} {{- /* 2. 見つからない場合は fallback 画像を取得 */ -}}
+{{- if not $res -}} {{- $res = resources.Get "images/circles/_placeholder.jpg"
+-}} {{- end -}} {{- $img := "" -}} {{- if $res -}} {{- if strings.HasSuffix
+(lower $res.Name) ".svg" -}} {{- $img = $res -}} {{- else -}} {{- $img =
+$res.Fit "2000x256 webp" -}} {{- end -}} {{- end -}}
+
+<section class="grid-split">
+  <figure class="image">
+    {{- if $img -}}
+    <img src="{{ $img.RelPermalink }}" alt="{{ .name }}" />
+    {{- end -}}
+  </figure>
+  <div class="text media-row__body">
+    <span>
+      <h2 class="member-name">{{ .name }}</h2>
+      <p class="member-remarks">{{ .university }}</p>
+    </span>
+
+    <hr />
+
+    {{- if .links -}}
+    <ul>
+      {{- range .links -}}
+      <li>
+        <a href="{{ .url }}" target="_blank" rel="noopener">{{ .label }}</a>
+      </li>
+      {{- end -}}
+    </ul>
+    {{- end -}}
+  </div>
+</section>
+{{- end -}}
