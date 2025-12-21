@@ -5,7 +5,7 @@ draft: false
 url: "/members/"
 tags: ["NUMA", "加盟団体"]
 categories: ["Members"]
-description: "NUMAに加盟している全国の大学メタバースサークル一覧"
+description: "NUMAに加盟している全国の大学サークル・団体一覧"
 ---
 
 # 加盟団体一覧
