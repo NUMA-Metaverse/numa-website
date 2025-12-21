@@ -145,3 +145,11 @@ description: "NUMAに加盟している全国の大学メタバースサーク�
 - [公式Xアカウント](https://x.com/Y_vr_FUGU)
 {{< /mediaWithText >}}
 
+{{< mediaWithText 
+    src="version_250717/prmn_logo.jpg"
+    name="公立千歳科学技術大学 プロジェクトメンバーVR班"
+    remarks="公立千歳科学技術大学"
+    h="256" >}}
+---
+
+{{< /mediaWithText >}}
