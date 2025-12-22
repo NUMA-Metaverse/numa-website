@@ -10,6 +10,6 @@
 - **HIT Metaverse**: `hit-metaverse`
 - **北海道大学メタバース研究会**: `hokkaido-metaverse`
 - **BluePrint**: `blueprint`
-- **山形大学VR部**: `yamagata-vr`
+- **山形大学VR部**: `yuvr`
 - **FUGU**: `fugu`
 - **公立千歳科学技術大学 プロジェクトメンバーVR班**: `prmn-vr`
