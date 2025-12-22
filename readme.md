@@ -101,7 +101,7 @@ NUMA (Nippon Universities Metaverse Alliance) 公式ウェブサイト(numa-meta
 
 ##### 4.1.1. 具体的な作成例
 
-- **Hoge XR の紹介記事」を新規作成する**
+- **「Hoge XR の紹介記事」を新規作成する**
   - `<post-ref>`: `hoge-xr-intro`
 
 ```sh
@@ -130,7 +130,7 @@ NUMA (Nippon Universities Metaverse Alliance) 公式ウェブサイト(numa-meta
 
 #### 4.4. 執筆
 
-ファイルを編集し保存すると，変更はプレビューに自動で反映される(ホットリロード)．編集時は以下のを遵守すること．
+ファイルを編集し保存すると，変更はプレビューに自動で反映される(ホットリロード)．編集時は以下を遵守すること．
 
 - **Front Matter の設定:**
   - **tags**: `<circle-id>`のほか，`活動記録`, `イベント開催`, `お知らせ` 等から適切に選択する．
@@ -235,6 +235,6 @@ GitHub 上で`main`ブランチへの PR を作成する．作成前に以下の
 
 #### [`assets/images/circles`](./assets/images/circles): アイコン画像
 
-`assets/images/circles/<circle-id>.<extention>`を追加すること．`<extention>`としては`png`, `jpg`, `jpeg`, `svg`をサポートしている．
+`assets/images/circles/<circle-id>.<extension>`を追加すること．`<extension>`としては`png`, `jpg`, `jpeg`, `svg`をサポートしている．
 
 </details>
