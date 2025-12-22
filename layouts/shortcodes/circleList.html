@@ -47,14 +47,15 @@
   }
 </style>
 
-{{- range .Site.Data.circles.list -}} {{- $res := "" -}} {{- /* 1.
-logoフィールドがある場合、パスを組み立てて取得を試みる */ -}} {{- if .logo -}}
-{{- $path := (printf "images/circles/%s" .logo) -}} {{- $res = resources.Get
-$path -}} {{- end -}} {{- /* 2. 見つからない場合は fallback 画像を取得 */ -}}
-{{- if not $res -}} {{- $res = resources.Get "images/circles/_placeholder.jpg"
--}} {{- end -}} {{- $img := "" -}} {{- if $res -}} {{- if strings.HasSuffix
-(lower $res.Name) ".svg" -}} {{- $img = $res -}} {{- else -}} {{- $img =
-$res.Fit "2000x256 webp" -}} {{- end -}} {{- end -}}
+{{- range .Site.Data.circles.list -}} {{- $res := "" -}} {{- $id := .id -}} {{/*
+1. idを基に、主要な拡張子で画像を探索 */}} {{- $extensions := slice "png" "jpg"
+"jpeg" "svg" -}} {{- range $extensions -}} {{- if not $res -}} {{- $path :=
+printf "images/circles/%s.%s" $id . -}} {{- $res = resources.Get $path -}} {{-
+end -}} {{- end -}} {{/* 2. 見つからない場合は fallback 画像を取得 */}} {{- if
+not $res -}} {{- $res = resources.Get "images/circles/_placeholder.jpg" -}} {{-
+end -}} {{- $img := "" -}} {{- if $res -}} {{- if strings.HasSuffix (lower
+$res.Name) ".svg" -}} {{- $img = $res -}} {{- else -}} {{- $img = $res.Fit
+"2000x256 webp" -}} {{- end -}} {{- end -}}
 
 <section class="grid-split">
   <figure class="image">
