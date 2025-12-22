@@ -2,7 +2,7 @@
 title: "サイト構成をリニューアルしました"
 date: 2025-10-16T14:06:28+09:00
 categories: ["Blog"]
-author: "Efo"
+author: "Efo-YU"
 tags: ["NUMA"]
 # description: Description for meta tags
 # draft: true

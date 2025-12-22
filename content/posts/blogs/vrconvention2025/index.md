@@ -3,7 +3,7 @@ title: "全国学生VRサークル活動報告大会2025 を開催"
 date: 2025-12-03T10:21:25+09:00
 categories: ["Blog"]
 author: "落雁.jp" # 著者名をここに入力
-tags: ["NUMA", "UT-virtual", "イベント開催", "活動記録", "全国学生VRサークル活動報告大会", "VRChat"] # おすすめタグ: "活動報告" / "イベント開催"
+tags: ["NUMA", "ut-virtual", "イベント開催", "活動記録", "全国学生VRサークル活動報告大会", "VRChat"] # おすすめタグ: "活動報告" / "イベント開催"
 # description: Description for meta tags
 # draft: true
 # headless: true
