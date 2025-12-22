@@ -1,0 +1,40 @@
+name: Update Name-ID Table
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "data/circles/list.yaml"
+
+jobs:
+  update-markdown:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate Markdown Table
+        run: |
+          # Use yq to parse YAML and format as Markdown list
+          # The -r flag gives raw output (no quotes)
+          echo "Generating name-id.md..."
+          yq -r '.[] | "- **" + .name + "**: `" + .id + "`"' data/circles/list.yaml > name-id.md
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add name-id.md
+
+          # Only commit if there are actual changes to prevent empty commit errors
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "docs: auto-update name-id.md from list.yaml"
+            git push
+          fi

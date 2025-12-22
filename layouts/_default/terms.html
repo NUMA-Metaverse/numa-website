@@ -1,0 +1,30 @@
+{{- define "main" -}} {{- if not .IsHome | and .Title }}
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . -}}
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">{{ .Description }}</div>
+  {{- end }}
+</header>
+{{- end }}
+
+<ul class="terms-tags">
+  {{- range $.Data.Terms.Alphabetical }} {{/* --- 追加ロジック:
+  タグIDから名前への変換 --- */}} {{- $tagName := .Page.Title -}} {{/*
+  デフォルトはタグのタイトル */}} {{- $tagID := .Term -}} {{/*
+  タグのID（スラッグ）を取得 */}} {{- if site.Data.circles.list -}} {{- range
+  site.Data.circles.list -}} {{/* 大文字小文字を無視してIDを比較 */}} {{- if eq
+  (lower .id) (lower $tagID) -}} {{- $tagName = .name -}} {{- end -}} {{- end
+  -}} {{- end -}} {{/* ------------------------------------------ */}}
+
+  <li>
+    <a href="{{ .Page.Permalink }}"
+      >{{ $tagName }}
+      <sup
+        ><strong><sup>{{ .Count }}</sup></strong></sup
+      >
+    </a>
+  </li>
+  {{- end }}
+</ul>
+{{- end -}}

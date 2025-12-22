@@ -1,0 +1,101 @@
+{{- define "main" -}} {{- if not .IsHome | and .Title }}
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . -}} {{/* --- ロジック開始: 名前と画像の取得
+  --- */}} {{- $displayTitle := .Title -}} {{- $circleImg := "" -}} {{/*
+  タグページの場合のみ処理を実行 */}} {{- if eq .Data.Singular "tag" -}} {{- if
+  site.Data.circles.list -}} {{- range site.Data.circles.list -}} {{/*
+  IDの一致確認（大文字小文字無視） */}} {{- if eq (lower .id) (lower
+  $displayTitle) -}} {{/* 1. 表示名をデータファイルから取得したものに更新 */}}
+  {{- $displayTitle = .name -}} {{/* 2. 画像リソースを検索 (png, jpg, jpeg, svg
+  の順) */}} {{- $cid := .id -}} {{- $extensions := slice "png" "jpg" "jpeg"
+  "svg" -}} {{- range $extensions -}} {{- if not $circleImg -}} {{- $path :=
+  printf "images/circles/%s.%s" $cid . -}} {{- $circleImg = resources.Get $path
+  -}} {{- end -}} {{- end -}} {{- end -}} {{- end -}} {{- end -}} {{- end -}}
+  {{/* --- ロジック終了 --- */}} {{/* 画像が見つかった場合のみ表示 */}} {{- if
+  $circleImg -}}
+  <div class="term-image" style="margin-bottom: 1.5rem">
+    <img
+      src="{{ $circleImg.RelPermalink }}"
+      alt="{{ $displayTitle }}"
+      style="
+        max-height: 120px;
+        width: auto;
+        object-fit: contain;
+        border-radius: 4px;
+      "
+    />
+  </div>
+  {{- end -}}
+
+  <h1>
+    {{ $displayTitle }} {{- if and (or (eq .Kind "term") (eq .Kind "section"))
+    (.Param "ShowRssButtonInSectionTermList") -}}
+    <a href="index.xml" title="RSS" aria-label="RSS">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        height="23"
+      >
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+    {{- end -}}
+  </h1>
+  {{- if .Description -}}
+  <div class="post-description">{{ .Description | markdownify }}</div>
+  {{- end -}}
+</header>
+{{- end -}} {{/* --- 記事一覧表示ロジック（変更なし） --- */}} {{- $pages :=
+.Pages -}} {{- if .IsHome -}} {{- $pages = where site.RegularPages "Type" "in"
+site.Params.mainSections -}} {{- end -}} {{- $paginator := .Paginate $pages -}}
+{{- range $paginator.Pages -}}
+<article
+  class="{{- if and $.IsHome ($.Site.Params.homeInfoParams | or $.Site.Params.profileMode) -}}post-entry{{- else -}}post-entry tag-entry{{- end -}}"
+>
+  {{- $isHidden := (.Site.Params.cover.hidden | default
+  .Site.Params.cover.hiddenInList) -}} {{- partial "cover.html" (dict "cxt" .
+  "IsHome" true "isHidden" $isHidden) -}}
+  <header class="entry-header">
+    <h2>
+      {{- .Title -}} {{- if .Draft -}}
+      <div class="entry-isdraft"><sup>&nbsp;&nbsp;[draft]</sup></div>
+      {{- end -}}
+    </h2>
+  </header>
+  {{- if (ne (.Param "hideSummary") true) -}}
+  <div class="entry-content">
+    <p>
+      {{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}
+    </p>
+  </div>
+  {{- end -}} {{- if not (.Param "hideMeta") -}}
+  <footer class="entry-footer">{{- partial "post_meta.html" . -}}</footer>
+  {{- end -}}
+  <a
+    class="entry-link"
+    aria-label="post link to {{ .Title | plainify }}"
+    href="{{ .Permalink }}"
+  ></a>
+</article>
+{{- end -}} {{- if gt $paginator.TotalPages 1 -}}
+<footer class="page-footer">
+  <nav class="pagination">
+    {{- if $paginator.HasPrev -}}
+    <a class="prev" href="{{ $paginator.Prev.URL | absURL }}"
+      >« {{ i18n "prev_page" }}</a
+    >
+    {{- end -}} {{- if $paginator.HasNext -}}
+    <a class="next" href="{{ $paginator.Next.URL | absURL }}"
+      >{{ i18n "next_page" }} »</a
+    >
+    {{- end -}}
+  </nav>
+</footer>
+{{- end -}} {{- end -}}

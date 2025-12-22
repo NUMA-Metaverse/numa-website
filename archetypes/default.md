@@ -2,28 +2,54 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 categories: ["Blog"]
-author: "NUMA" # 著者名をここに入力
-tags: ["NUMA"] # おすすめタグ: "活動記録" / "イベント開催" / "お知らせ" / 自分のサークルの名称
-# description: Description for meta tags
-# draft: true
-# headless: true
-# expiryDate: 2025-01-01T00:00:00-08:00
-cover: # カバー画像。設定を推奨！
-    image: "/svg/NUMA_NoImage_Rectangle.svg" # NoImageは/static/svg/にあります
-    
-# 原則画像は、このindex.mdと同じディレクトリに保存
+tags: ["NUMA"] # 以下のタグから選択・追記: "<circle-id>", "活動記録", "イベント開催", "お知らせ"
+author: "NUMA" # "<user-name>"，または"<circle-id>"に変更してください
+description: "" # 記事の短い説明（メタタグ用）
+# cover:
+#     image: "" # カバー画像ファイル名 (例: "cover.jpg")．index.mdと同じ階層に配置
+#     alt: "" # 代替テキスト
+#     caption: "" # キャプション
+#     relative: true # 必須: 画像をPage Bundle (同階層) から読み込む設定
 ---
 
-# H1
-## H2
-### H3
-#### H4
+ここにリード文（導入）を書きます．
+一覧ページで表示される抜粋になります．
 
-こんな感じでかけますよ。
-**BOLD**にもできます。
+## 見出し 2 (H2)
 
-Markdown(`.md`)は、簡単で、面白い。
+本文はここから書き始めます．基本的に `H2` から使い始めます（`H1` は記事タイトルで使用されるため）．
 
-<!--
-HTML記法もぶっこめるよ。でも基本はMarkdon 
--->
+### 見出し 3 (H3)
+
+小見出しです．
+
+#### 見出し 4 (H4)
+
+さらに細かい見出しです．
+
+---
+
+## 画像の貼り方
+
+画像はこの `index.md` と同じフォルダに配置し，ファイル名だけでリンクできます．
+**必ず圧縮してから配置してください．**
+
+![画像の代替テキスト](image.jpg)
+
+## テキストの装飾
+
+- **太字** で強調
+- _斜体_ も使えます
+- [リンクのテキスト](https://numa-meta.com/)
+- `コード` の埋め込み
+
+> 引用文はこのように表示されます．
+
+1. 番号付きリスト
+2. 番号付きリスト
+
+## 数式（必要な場合）
+
+$$
+  e^{i\pi} = -1
+$$

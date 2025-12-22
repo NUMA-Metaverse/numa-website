@@ -3,7 +3,7 @@ title: "メタ創【日本大学】"
 date: 2025-12-18T16:38:21+09:00
 categories: ["Blog"]
 author: "yurarara" # 著者名をここに入力
-tags: ["サークル紹介"] # おすすめタグ: "活動記録" / "イベント開催"
+tags: ["nu-metasou", "サークル紹介"] # おすすめタグ: "活動記録" / "イベント開催"
 # draft: true
 # headless: true
 # expiryDate: 2025-01-01T00:00:00-08:00
