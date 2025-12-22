@@ -1,0 +1,15 @@
+- **OUS Metaverse**: `ous-metaverse`
+- **KAIT VR**: `kait-vr`
+- **KU-virtual**: `ku-virtual`
+- **京都精華大学VR部**: `seika-vr`
+- **SVRC**: `svrc`
+- **UT-virtual**: `ut-virtual`
+- **仮想空間研究会**: `tzuvss`
+- **東北大学メタバース研究会**: `tohoku-metaverse`
+- **Nu.メタ創**: `nu-metasou`
+- **HIT Metaverse**: `hit-metaverse`
+- **北海道大学メタバース研究会**: `hokkaido-metaverse`
+- **BluePrint**: `blueprint`
+- **山形大学VR部**: `yamagata-vr`
+- **FUGU**: `fugu`
+- **公立千歳科学技術大学 プロジェクトメンバーVR班**: `prmn-vr`
