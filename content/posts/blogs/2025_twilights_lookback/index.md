@@ -1,6 +1,6 @@
 ---
 title: "2つの組織で運営して気づいたNUMAの重要性"
-date: 2025-12-24T17:45:33+09:00
+date: 2025-12-25T04:30:00+09:00
 categories: ["Blog"]
 tags: ["UT-virtual","KAIT VR",""] # 以下のタグから選択・追記: "<circle-id>", "活動記録", "イベント開催", "お知らせ"
 author: "twilight_noly" # "<user-name>"，または"<circle-id>"に変更してください
