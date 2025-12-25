@@ -8,8 +8,8 @@ description: 2025年度、OUS Metaverseは「大きなサークル」を目指�
 # draft: false
 # headless: true
 # expiryDate: 2025-01-01T00:00:00-08:00
-# cover: # カバー画像。設定を推奨！
-#     image: "TZUVSS_logo_web.jpg" # NoImageは/static/svg/にあります
+cover:
+    image: "cover.webp"
 ---
 
 ## サークルは大体３種類ある
