@@ -84,3 +84,8 @@ cover:
 <br>…いや。「仲良しサークル」として運営すること自体が間違いなのかもしれません。いや、きっとそうなのでしょう。<br>
 サークルの入口に「仲良くなれそうか？」などというボーダーラインを設け、仲良しだけが入れるサークルにする。果たしてここに「サークル」である意味はあるのでしょうか？<br>
 この理想論は、最初から破綻していたのかもしれませんね。
+
+---
+著者：みねたけ（OUS Metaverse）<br>
+サークルXアカウント [@OUSMetaverse](https://twitter.com/OusMetaverse)<br>
+サークルBlueskyアカウント [@ousmeta.com](https://bsky.app/profile/ousmeta.com)
