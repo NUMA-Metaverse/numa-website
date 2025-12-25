@@ -1,3 +1,17 @@
+---
+title: "サークルを「仲良しサークル」として運営する"
+date: 2025-12-25T23:00:00+09:00
+categories: ["Blog"]
+author: "OUS Metaverse みねたけ"
+tags: ["エッセイ"]
+description: 2025年度、OUS Metaverseは「大きなサークル」を目指さず「仲良しサークル」として運営しようとしました。その理由と実際良かったこと、そしてその反省の記事です。
+# draft: false
+# headless: true
+# expiryDate: 2025-01-01T00:00:00-08:00
+# cover: # カバー画像。設定を推奨！
+#     image: "TZUVSS_logo_web.jpg" # NoImageは/static/svg/にあります
+---
+
 # サークルを「仲良しサークル」として運営する
 
 2025年度、OUS Metaverseは「大きなサークル」を目指さず「仲良しサークル」として運営しようとしました。その理由と実際良かったこと、そしてその反省の記事です。<br>
