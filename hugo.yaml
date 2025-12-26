@@ -4,6 +4,7 @@ title: "NUMA - Nippon Universities Metaverse Alliance"
 copyright: "© [NUMA 全日本大学メタバース連盟](https://numa-meta.com/)"
 theme: PaperMod
 defaultContentLanguage: ja
+images: ["images/og-cover.png"]
 
 # Hugoのビルド設定
 enableInlineShortcodes: true
