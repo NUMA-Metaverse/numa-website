@@ -3,7 +3,7 @@ title: "サークルを「仲良しサークル」として運営する"
 date: 2025-12-24T23:00:00+09:00
 categories: ["Blog"]
 author: "OUS Metaverse みねたけ"
-tags: ["エッセイ"]
+tags: ["アドベントカレンダー2025", "エッセイ", "ous-metaverse"]
 description: 2025年度、OUS Metaverseは「大きなサークル」を目指さず「仲良しサークル」として運営しようとしました。その理由と実際良かったこと、そしてその反省の記事です。なお私はOUS Metaverseのいち幹部であり、代表ではありません。この記事は、その立場での個人的な考えです。
 # draft: false
 # headless: true
