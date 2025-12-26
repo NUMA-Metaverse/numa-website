@@ -1,8 +1,8 @@
 ---
 title: "北のメタバースから 北海道大学メタバース研究会"
-date: 2025-12-23T22:26:00+09:00
+date: 2025-12-26T22:26:00+09:00
 categories: ["Blog"]
-tags: ["NUMA","hokkaido-metaverse"] # 以下のタグから選択・追記: "<circle-id>", "活動記録", "イベント開催", "お知らせ"
+tags: ["NUMA","hokkaido-metaverse", "アドベントカレンダー2025"] # 以下のタグから選択・追記: "<circle-id>", "活動記録", "イベント開催", "お知らせ"
 author: "北海道大学メタバース研究会" # "<user-name>"，または"<circle-id>"に変更してください
 description: "北のメタバースから 北海道大学メタバース研究会" # 記事の短い説明（メタタグ用）
 cover:
