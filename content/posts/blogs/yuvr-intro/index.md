@@ -2,7 +2,7 @@
 title: "地方XRコミュニティを前へ　山形大学VR部"
 date: 2025-12-25T02:26:07+09:00
 categories: ["Blog"]
-tags: ["NUMA"] # 以下のタグから選択・追記: "<circle-id>", "活動記録", "イベント開催", "お知らせ"
+tags: ["NUMA", "アドベントカレンダー2025", "yuvr"] # 以下のタグから選択・追記: "<circle-id>", "活動記録", "イベント開催", "お知らせ"
 author: "shuma0102" # "<user-name>"，または"<circle-id>"に変更してください
 description: "" # 記事の短い説明（メタタグ用）
 cover:

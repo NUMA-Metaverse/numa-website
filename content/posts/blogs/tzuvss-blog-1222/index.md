@@ -3,7 +3,7 @@ title: "美術大学のVRサークル！仮想空間研究会"
 date: 2025-12-25T08:17:31+09:00
 categories: ["Blog"]
 author: "仮想空間研究会" # 著者名をここに入力
-tags: ["仮想空間研究会"] # おすすめタグ: "活動記録" / "イベント開催" / "お知らせ" / 自分のサークルの名称
+tags: ["tzuvss", "アドベントカレンダー2025"] # おすすめタグ: "活動記録" / "イベント開催" / "お知らせ" / 自分のサークルの名称
 # description: Description for meta tags
 # draft: false
 # headless: true

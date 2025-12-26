@@ -3,7 +3,7 @@ title: "山口からバーチャルの世界を創る！山口VRサークルFUGU
 date: 2025-12-21T09:28:04+09:00
 categories: ["Blog"]
 author: "NUMA" # 著者名をここに入力
-tags: ["NUMA"] # おすすめタグ: "活動記録" / "イベント開催" / "お知らせ" / 自分のサークルの名称
+tags: ["NUMA", "アドベントカレンダー2025", "fugu"] # おすすめタグ: "活動記録" / "イベント開催" / "お知らせ" / 自分のサークルの名称
 # description: Description for meta tags
 # draft: true
 # headless: true

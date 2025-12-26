@@ -3,7 +3,7 @@ title: "BluePrintの（超ざっくり）紹介"
 date: 2025-12-24T00:00:00+09:00
 categories: ["Blog"]
 author: "T-fc" # 著者名をここに入力
-tags: ["NUMA","アドベントカレンダー", "BluePrint", "VRChat"] # おすすめタグ: "活動記録" / "イベント開催"
+tags: ["NUMA","アドベントカレンダー2025", "blueprint", "VRChat"] # おすすめタグ: "活動記録" / "イベント開催"
 # description: Description for meta tags
 # draft: true
 # headless: true

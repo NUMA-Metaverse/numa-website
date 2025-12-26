@@ -1,6 +1,6 @@
 ---
 title: "サークルを「仲良しサークル」として運営する"
-date: 2025-12-24T23:00:00+09:00
+date: 2025-12-26T23:18:00+09:00
 categories: ["Blog"]
 author: "OUS Metaverse みねたけ"
 tags: ["アドベントカレンダー2025", "エッセイ", "ous-metaverse"]
