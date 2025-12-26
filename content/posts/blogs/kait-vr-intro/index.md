@@ -2,7 +2,7 @@
 title: "「つくる」を楽しむ場所へ：KAIT VRの紹介"
 date: 2025-12-26T18:43:58+09:00
 categories: ["Blog"]
-tags: ["KAIT VR","アドベントカレンダー2025"]
+tags: ["kait-vr","アドベントカレンダー2025"]
 author: "KAIT VR"
 cover:
     image: "kait-vr.jpg"
