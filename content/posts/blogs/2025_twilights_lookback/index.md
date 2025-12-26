@@ -5,11 +5,11 @@ categories: ["Blog"]
 tags: ["UT-virtual","KAIT VR",""] # 以下のタグから選択・追記: "<circle-id>", "活動記録", "イベント開催", "お知らせ"
 author: "twilight_noly" # "<user-name>"，または"<circle-id>"に変更してください
 description: "2つの組織で運営してみて感じたことなど" # 記事の短い説明（メタタグ用）
-# cover:
-#     image: "" # カバー画像ファイル名 (例: "cover.jpg")．index.mdと同じ階層に配置
-#     alt: "" # 代替テキスト
-#     caption: "" # キャプション
-#     relative: true # 必須: 画像をPage Bundle (同階層) から読み込む設定
+cover:
+     image: "cover.jpg" # カバー画像ファイル名 (例: "cover.jpg")．index.mdと同じ階層に配置
+     alt: "可愛い画像" # 代替テキスト
+     caption: "何を貼ろうか、何にも思いつかなかったよ" # キャプション
+     relative: true # 必須: 画像をPage Bundle (同階層) から読み込む設定
 ---
 
 
