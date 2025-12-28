@@ -32,7 +32,7 @@ HIT Metaverseは広島工業大学にあるメタバースサークルです。
 内容としては、学校ではVR体験会を行い、VRの楽しさを知ってもらいました。
 また、メタバース側では初心者案内を行い、メタバース内でできることや、楽しみ方などを説明しました。
 新入部員のメンバーがメタバースに興味を持ってもらう良い機会になったと思います。
-<center><img src="hit-site-1.png" width="100%"/>
+<center><img src="hit-site-1.jpg" width="100%"/>
 初心者案内の様子</center><br>
 
 ---
@@ -90,7 +90,7 @@ VR体験会では、自分たちで作ったワールドを使い、VRChatで遊
 TSS様にお呼びしていただき、**Hiroshima Digital Meet up**という、メタバース上で企業様に活動をアピールするイベントに参加しました。
 その際、HIT Metaverseは、広島工業大学を再現したワールドを展示しました。広島の企業様に活動を知ってもらういい機会になりました。
 
-<center><img src="hit-site-5.png" width="100%" />
+<center><img src="hit-site-5.jpg" width="100%" />
 実際に展示したもの<br></center>
 
 <center><img src="hit-site-6.jpg" width="100%" />
@@ -110,7 +110,7 @@ TSS様にお呼びしていただき、**Hiroshima Digital Meet up**という、
 ## その他　定期交流会
 そのほかにも毎週、サークル内で定期交流会を行っています。
 内容はゲームワールドで遊んだり、綺麗なワールドで写真を撮ったり、お部屋のワールドで雑談をしたりしています。
-<center><img src="hit-site-9.png" width="100%" />
+<center><img src="hit-site-9.jpg" width="100%" />
 交流会の様子<br></center>
 
 ---
