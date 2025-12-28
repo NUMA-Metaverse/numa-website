@@ -1,9 +1,9 @@
 ---
 title: "広島工業大学 HIT Metaverse 活動記録 in2025"
-date: 2025-12-19T01:10:20+09:00
+date: 2025-12-28T01:10:20+09:00
 categories: ["Blog"]
 author: "ロアン" # 著者名をここに入力
-tags: ["活動記録","HIT Metaverse"] # おすすめタグ: "活動記録" / "イベント開催"
+tags: ["活動記録","hit-metaverse", "アドベントカレンダー2025"] # おすすめタグ: "活動記録" / "イベント開催"
 # description: Description for meta tags
 # draft: true
 # headless: true
@@ -44,7 +44,7 @@ Virtual Open Campusとは、
 メタバース上で大学を再現したワールドを使い、オープンキャンパスを行う活動をしています。
 HIT Metaverseでは、6月から8月の２か月をかけて、準備を行いました。
 その結果、当日には2日間で400人ほどの方に参加していただきました。
-<img src="hit-site-2.png" width="100%" />
+<img src="hit-site-2.jpg" width="100%" />
 ### VOCの活動内容紹介
 では具体的にどのような活動を行ってきたか紹介します。
 
