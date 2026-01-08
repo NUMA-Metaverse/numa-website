@@ -6,10 +6,10 @@
 - **UT-virtual**: `ut-virtual`
 - **仮想空間研究会**: `tzuvss`
 - **東北大学メタバース研究会**: `tohoku-metaverse`
-- **Nu.メタ創**: `nu-metasou`
+- **N.U.メタバースの可能性を創造しよう！ (Nu.メタ創)**: `nu-metasou`
 - **HIT Metaverse**: `hit-metaverse`
 - **北海道大学メタバース研究会**: `hokkaido-metaverse`
 - **BluePrint**: `blueprint`
 - **山形大学VR部**: `yuvr`
-- **FUGU**: `fugu`
-- **公立千歳科学技術大学 プロジェクトメンバーVR班**: `prmn-vr`
+- **山口VRサークル Fulldive Universal Gateway Unit (FUGU)**: `fugu`
+- **公立千歳科学技術大学 プロジェクトメンバーVR班 (CIST プロメンVR)**: `prmn-vr`
