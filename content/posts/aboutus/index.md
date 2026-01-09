@@ -14,7 +14,7 @@ cover:
 
 NUMA (Nippon Universities Metaverse Alliance)は、日本全国のXR・メタバース系サークルの互助を実現する組織です。様々な知見を集積するだけでなく、お互いに切磋琢磨できる環境も実現します。
 
-現在 **14大学14団体** が加盟し、NUMA内で活動しています。
+現在 **{{< circlesCount >}}団体** が加盟し、NUMA内で活動しています。
 👉 [加盟団体を見る](/members)  
 
 ---
