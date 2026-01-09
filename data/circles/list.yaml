@@ -63,7 +63,7 @@
       url: "https://twitter.com/metaversetohoku"
 
 - id: "nu-metasou"
-  name: "Nu.メタ創"
+  name: "N.U.メタバースの可能性を創造しよう！ (Nu.メタ創)"
   university: "日本大学"
   links:
     - label: "公式サイト"
@@ -104,8 +104,7 @@
       url: "https://twitter.com/vr_yamagata"
 
 - id: "fugu"
-  name: "FUGU"
-  university: "山口VRサークル"
+  name: "山口VRサークル Fulldive Universal Gateway Unit (FUGU)"
   links:
     - label: "公式サイト"
       url: "https://yamaguchi-vr-fugu.vercel.app/"
@@ -113,5 +112,5 @@
       url: "https://x.com/Y_vr_FUGU"
 
 - id: "prmn-vr"
-  name: "公立千歳科学技術大学 プロジェクトメンバーVR班"
+  name: "公立千歳科学技術大学 プロジェクトメンバーVR班 (CIST プロメンVR)"
   university: "公立千歳科学技術大学"
