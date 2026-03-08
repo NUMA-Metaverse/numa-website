@@ -237,4 +237,4 @@ https://numa-meta.com/posts/blogs/circle-taidan-01-part1/
 
 **NUMAではメタバースを利用した活動を行っております！気になる人はX（旧Twitter）をチェック！**
 
-https://x.com/numa_meta_
+[Xはこちらから](https://x.com/numa_meta_ )
