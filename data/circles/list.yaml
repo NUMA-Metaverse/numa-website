@@ -118,3 +118,6 @@
 - id: "zen-vr"
   name: "ZENVRサークル"
   university: "ZEN大学"
+  links:
+    - label: "公式Xアカウント"
+      url: "https://x.com/zenvr_circle"
