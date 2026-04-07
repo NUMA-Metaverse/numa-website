@@ -121,3 +121,12 @@
   links:
     - label: "公式Xアカウント"
       url: "https://x.com/zenvr_circle"
+
+- id: "yamatovrteam"
+  name: "大和大学 VRチーム"
+  university: "大和大学"
+  links:
+    - label: "公式Xアカウント"
+      url: "https://x.com/yamato_vr_lab"
+    - label: "公式Instagram"
+      url: "https://www.instagram.com/yamato_vr_lab"

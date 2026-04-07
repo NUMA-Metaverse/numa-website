@@ -13,3 +13,4 @@
 - **山形大学VR部**: `yuvr`
 - **山口VRサークル Fulldive Universal Gateway Unit (FUGU)**: `fugu`
 - **公立千歳科学技術大学 プロジェクトメンバーVR班 (CIST プロメンVR)**: `prmn-vr`
+- **大和大学 VRチーム**: `yamatovrteam`
