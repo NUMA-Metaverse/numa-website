@@ -2,7 +2,7 @@
 title: V化祭2026 開催報告記事
 date: 2026-04-17 12:54:06+09:00
 categories: ["Blog"]
-tags: イベント開催
+tags: ["NUMA", "活動記録", "イベント開催"]
 author: shuma0102
 description: 2026年3月、VRChat上にて学生合同イベント「V化祭2026」を開催しました。
 cover:
