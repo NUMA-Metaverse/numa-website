@@ -133,8 +133,6 @@
 
 - id: "Neptunity"
   name: "Neptunity"
-　# TODO: Uncomment this once we get official approval from the university.
-　# university: "共愛学園前橋国際大学"
   links:
     - label: "公式Xアカウント"
       url: "https://x.com/neptunity_v1"
