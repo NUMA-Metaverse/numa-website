@@ -16,3 +16,4 @@
 - **ZENVRサークル**: `zen-vr`
 - **大和大学 VRチーム**: `yamatovrteam`
 - **Neptunity**: `neptunity`
+- **空間工作研究会**:`mauxr`

@@ -137,3 +137,10 @@
   links:
     - label: "公式Xアカウント"
       url: "https://x.com/neptunity_v1"
+
+- id: "mauxr"
+  name: "空間工作研究会"
+  university: "武蔵野美術大学"
+  links:
+    - label: "公式Xアカウント"
+      url: "https://x.com/mau_xr"
