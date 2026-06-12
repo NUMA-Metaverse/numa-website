@@ -144,3 +144,10 @@
   links:
     - label: "公式Xアカウント"
       url: "https://x.com/mau_xr"
+
+- id: "TDUCC"
+  name: "東京電機大学コンピュータークラブ部VR班"
+  university: "東京電機大学"
+  links:
+    - label: "公式Xアカウント"
+      url: "https://x.com/tducomputer"
