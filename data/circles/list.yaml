@@ -160,3 +160,13 @@
       url: "https://waseda.vken.org/home"
     - label: "公式Xアカウント"
       url: "https://x.com/waseda_Virtual"
+
+- id: "kogakuin-vr"
+  name: "工学院大学VRプロジェクト"
+  university: "工学院大学"
+  links:
+    - label: "公式Instagram"
+      url: "https://www.instagram.com/kogakuin_vr_project/"
+    - label: "公式Xアカウント"
+      url: "https://x.com/ku_xrteam"
+
