@@ -10,6 +10,8 @@ tags: ["NUMA", "ut-virtual", "イベント開催", "活動記録", "全国学生
 # expiryDate: 2025-01-01T00:00:00-08:00
 cover: # カバー画像。設定を推奨！
     image: "01.png"
+slug: vrsc-2025
+aliases: vrconvention2025
 ---
 2025年10月18日・19日、**NUMAはUT-virtualとともに、全国学生VRサークル活動報告大会 & XR制作物プレゼン 2025 を開催しました。**
 
