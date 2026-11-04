@@ -65,8 +65,6 @@ DAY1だけでなく、DAY2のイベントの様子も知りたい！という方
 
 今年は、そのような自由度の高いプラットフォームを登壇・プレゼンを行う環境として、実験的に用いることとしました。
 
-(resonite pic)
-
 ## NUMAの今後のイベントについて
 次の大型イベントは、来年3月頃に開催予定のV化祭2027を予定しています。
 
@@ -79,7 +77,7 @@ DAY1だけでなく、DAY2のイベントの様子も知りたい！という方
 
 **DAY1 in Resonite**  
 **YouTube**: https://www.youtube.com/watch?v=Oaqvx7YCu0c  
-**Resonite**: URL
+**Resonite**: https://go.resonite.com/record/U-1adJSoohgHo/R-01a1165c-21d1-76fd-b150-e13f01183167 
 
 **DAY2 in VRChat**  
 **YouTube**: https://www.youtube.com/watch?v=nz3gcGCO-Fg  
