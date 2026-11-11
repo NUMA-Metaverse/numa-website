@@ -1,0 +1,9 @@
+/* File: assets/css/extended/custom.css */
+
+.post-entry {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 24px 0;
+}
