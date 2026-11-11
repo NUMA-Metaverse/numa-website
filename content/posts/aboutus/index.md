@@ -1,51 +1,47 @@
 ---
 title: "NUMAについて"
-date: 2025-10-10T00:00:00+09:00
+# date: 2025-10-10T00:00:00+09:00
 draft: false
 url: "/aboutus"
-author: "NUMA"
+# author: "NUMA"
 tags: ["NUMA"]
 categories: ["About"]
 cover:
     image: "NUMALogo_Rectangle_Black_alpha_cut.svg"
 ---
 
-# NUMAとは
+# NUMA
 
-NUMA (Nippon Universities Metaverse Alliance)は、日本全国のXR・メタバース系サークルの互助を実現する組織です。様々な知見を集積するだけでなく、お互いに切磋琢磨できる環境も実現します。
+**NUMA 全日本大学メタバース連盟** (Nippon Universities Metaverse Alliance) は、XR・メタバース団体の互助組織です。大学や地域を越え、知見の共有や交流、共同制作やイベント運営に取り組んでいます。
 
 現在 **{{< circlesCount >}}団体** が加盟し、NUMA内で活動しています。
-👉 [加盟団体を見る](/members)  
+👉 [**加盟団体を見る**](/members)  
 
 ---
 
 ## 目的・活動
 
-現状、XR・メタバース系サークルは増加しているものの、メンバーが少なく、持続的な運営が難しい団体が少なからずあります。
-こうした団体に対して、NUMAという全国的なリソースの共有基盤があることにより、1つのサークルで成し得ない規模のイベント開催が可能になります。
-**NUMAはそれぞれのサークルとしての価値を維持し、継続的な運営や発展を支援します。**
+XR・メタバースを扱う学生団体は現在増加傾向にあるものの、メンバーや知見・資金といったリソースが少なく、持続的な運営が難しい団体があります。一方で、すでに数年以上続く学生団体は、現状を打破するべく新しい考えを求めていたり、複数の団体が関わる大規模なイベントに興味があったりします。
 
-NUMAでは毎月開催の定例会や、不定期にLT会やハッカソンなどのサークル横断的なイベントの企画が進行中です。
+そこで、**リソースの共有基盤**でもあり、**団体横断的なイベントの開催母体**でもあるNUMAが、**多種多様な団体をつなぐハブ**として活動しています。NUMAはそれぞれの団体としての価値を維持し、継続的な運営や発展を支援しています。さらに、新規にサークルを立ち上げたい大学生を始めとして、様々な学生を受け入れています。
+
+NUMAでは以下のような活動が行われています。
+
+* **全国学生VRサークル活動報告大会**（毎年）  
+1年にわたる各学生団体の活動報告が行われる  
+UT-virtualと共催！2026年度の様子はこちら → [**特設サイト**](https://vrsc-2026.numa-meta.com/)
+* **V化祭**（毎年）  
+全国の学生が集うバーチャル大文化祭  
+JVSLと共催！2025年度の様子はこちら → [**開催報告記事**](/posts/blogs/vfes2026/index.md)
+* **運営交流会**（毎月）  
+NUMAに所属している全員が参加可能な交流イベント  
+* **サークル対談**（不定期）  
+2団体間で1時間対談するイベント  
+交流のきっかけになることが多い  
 
 ---
 
-<h2>
-  <a href="https://discord.gg/CeWgNj5cfX">Discordサーバー</a>
-</h2>
+## 加盟方法
+詳細な加盟方法はDiscord内に案内があります。
 
-加盟フォーム等、その他詳細な情報もDiscordサーバ内にあるので興味のある方は是非入ってください。
-<!-- 詳細な入会条件も含め、本組織の詳細については、[**NUMA 紹介資料**](https://docs.google.com/document/d/1m6V6IItkijHTW4leKcfPeg1cJ25iKln2hkNFw69PJng/edit?usp=sharing)の 「NUMAで活動するためには？」 の項目をご確認ください。
-
-また、上記リンクが使用できない場合やご不明な点がある場合は遠慮なく[Twitter NUMA公式アカウント](https://x.com/numa_meta_) へダイレクトメッセージをお送りください。  
-（※DM受信を「全員に許可」に設定してください → [設定方法はこちら](https://help.twitter.com/ja/using-x/direct-messages#receive)）
-
-<script>
-new MutationObserver(() => {
-  const isDark = document.body.classList.contains('dark');
-  // 押した瞬間に切り替わるので逆にしないといけない
-  const cover = document.querySelector('.entry-cover img');
-  if (!cover) return;
-  console.log(isDark)
-  cover.src = (isDark) ? 'NUMALogo_Rectangle_White_alpha.svg' : 'NUMALogo_Rectangle_Black_alpha_cut.svg';
-}).observe(document.body, { attributes: true, attributeFilter: ['class'] });
-</script>--!>
+加盟を希望される学生団体や、これから団体を立ち上げたい学生さんも、まずはDiscordサーバーにご参加ください！ → [**Discord 招待URL**](https://discord.gg/ZT32sdk6rv)
