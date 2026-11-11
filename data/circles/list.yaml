@@ -1,16 +1,11 @@
-- id: "ous-metaverse"
-  name: "OUS Metaverse"
-  university: "岡山理科大学"
+- id: "hit-metaverse"
+  name: "HIT Metaverse"
+  university: "広島工業大学"
   links:
     - label: "公式Xアカウント"
-      url: "https://twitter.com/OusMetaverse"
-
-- id: "kait-vr"
-  name: "KAIT VR"
-  university: "神奈川工科大学"
-  links:
-    - label: "公式Xアカウント"
-      url: "https://x.com/KaitVR_info"
+      url: "https://twitter.com/HIT_Metaverse"
+    - label: "公式Instagram"
+      url: "https://www.instagram.com/hit_metaverse"
 
 - id: "ku-virtual"
   name: "KU-virtual"
@@ -19,14 +14,12 @@
     - label: "公式Xアカウント"
       url: "https://twitter.com/KU_virtual"
 
-- id: "seika-vr"
-  name: "京都精華大学VR部"
-  university: "京都精華大学"
+- id: "ous-metaverse"
+  name: "OUS Metaverse"
+  university: "岡山理科大学"
   links:
-    - label: "紹介ページ"
-      url: "https://www.kyoto-seika.ac.jp/campuslife/club/c25.html"
     - label: "公式Xアカウント"
-      url: "https://x.com/seika_vr"
+      url: "https://twitter.com/OusMetaverse"
 
 - id: "svrc"
   name: "SVRC"
@@ -53,46 +46,12 @@
     - label: "公式Xアカウント"
       url: "https://x.com/TZUVSS"
 
-- id: "tohoku-metaverse"
-  name: "東北大学メタバース研究会"
-  university: "東北大学"
-  links:
-    - label: "公式YouTube"
-      url: "https://www.youtube.com/@MetaverseTohoku"
-    - label: "公式Xアカウント"
-      url: "https://twitter.com/metaversetohoku"
-
-- id: "nu-metasou"
-  name: "N.U.メタバースの可能性を創造しよう！ (Nu.メタ創)"
-  university: "日本大学"
-  links:
-    - label: "公式サイト"
-      url: "https://nu-meta.vercel.app/"
-    - label: "公式Xアカウント"
-      url: "https://x.com/nuMetasou"
-
-- id: "hit-metaverse"
-  name: "HIT Metaverse"
-  university: "広島工業大学"
-  links:
-    - label: "公式Xアカウント"
-      url: "https://twitter.com/HIT_Metaverse"
-    - label: "公式Instagram"
-      url: "https://www.instagram.com/hit_metaverse"
-
 - id: "hokkaido-metaverse"
   name: "北海道大学メタバース研究会"
   university: "北海道大学"
   links:
     - label: "公式Xアカウント"
       url: "https://x.com/HU_Metaverse"
-
-- id: "blueprint"
-  name: "BluePrint"
-  university: "立命館大学"
-  links:
-    - label: "公式Xアカウント"
-      url: "https://twitter.com/Meta_BluePrint"
 
 - id: "yuvr"
   name: "山形大学VR部"
@@ -103,6 +62,31 @@
     - label: "公式Xアカウント"
       url: "https://twitter.com/vr_yamagata"
 
+- id: "tohoku-metaverse"
+  name: "東北大学メタバース研究会"
+  university: "東北大学"
+  links:
+    - label: "公式YouTube"
+      url: "https://www.youtube.com/@MetaverseTohoku"
+    - label: "公式Xアカウント"
+      url: "https://twitter.com/metaversetohoku"
+
+- id: "seika-vr"
+  name: "京都精華大学VR部"
+  university: "京都精華大学"
+  links:
+    - label: "紹介ページ"
+      url: "https://www.kyoto-seika.ac.jp/campuslife/club/c25.html"
+    - label: "公式Xアカウント"
+      url: "https://x.com/seika_vr"
+
+- id: "blueprint"
+  name: "BluePrint"
+  university: "立命館大学"
+  links:
+    - label: "公式Xアカウント"
+      url: "https://twitter.com/Meta_BluePrint"
+
 - id: "fugu"
   name: "山口VRサークル Fulldive Universal Gateway Unit (FUGU)"
   links:
@@ -110,6 +94,22 @@
       url: "https://yamaguchi-vr-fugu.vercel.app/"
     - label: "公式Xアカウント"
       url: "https://x.com/Y_vr_FUGU"
+
+- id: "kait-vr"
+  name: "KAIT VR"
+  university: "神奈川工科大学"
+  links:
+    - label: "公式Xアカウント"
+      url: "https://x.com/KaitVR_info"
+
+- id: "nu-nihon"
+  name: "N.U.メタバースの可能性を創造しよう！ (Nu.メタ創)"
+  university: "日本大学"
+  links:
+    - label: "公式サイト"
+      url: "https://nu-meta.vercel.app/"
+    - label: "公式Xアカウント"
+      url: "https://x.com/nuMetasou"
 
 - id: "prmn-vr"
   name: "公立千歳科学技術大学 プロジェクトメンバーVR班 (CIST プロメンVR)"
