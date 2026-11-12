@@ -47,7 +47,7 @@
   }
 </style>
 
-{{- range .Site.Data.circles.list -}} {{- $res := "" -}} {{- $id := .id -}} {{/*
+{{- range hugo.Data.circles.list -}} {{- $res := "" -}} {{- $id := .id -}} {{/*
 1. idを基に、主要な拡張子で画像を探索 */}} {{- $extensions := slice "png" "jpg"
 "jpeg" "svg" -}} {{- range $extensions -}} {{- if not $res -}} {{- $path :=
 printf "images/circles/%s.%s" $id . -}} {{- $res = resources.Get $path -}} {{-

@@ -12,8 +12,8 @@
   {{- range $.Data.Terms.Alphabetical }} {{/* --- 追加ロジック:
   タグIDから名前への変換 --- */}} {{- $tagName := .Page.Title -}} {{/*
   デフォルトはタグのタイトル */}} {{- $tagID := .Term -}} {{/*
-  タグのID（スラッグ）を取得 */}} {{- if site.Data.circles.list -}} {{- range
-  site.Data.circles.list -}} {{/* 大文字小文字を無視してIDを比較 */}} {{- if eq
+  タグのID（スラッグ）を取得 */}} {{- if hugo.Data.circles.list -}} {{- range
+  hugo.Data.circles.list -}} {{/* 大文字小文字を無視してIDを比較 */}} {{- if eq
   (lower .id) (lower $tagID) -}} {{- $tagName = .name -}} {{- end -}} {{- end
   -}} {{- end -}} {{/* ------------------------------------------ */}}
 
