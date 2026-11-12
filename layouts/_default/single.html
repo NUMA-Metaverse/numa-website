@@ -34,7 +34,7 @@
     <ul class="post-tags">
       {{- range ($.GetTerms $tags) -}} {{/* --- ここが変更点:
       タグIDから名前への変換 --- */}} {{- $tagName := .LinkTitle -}} {{- if
-      site.Data.circles.list -}} {{- range site.Data.circles.list -}} {{- if eq
+      hugo.Data.circles.list -}} {{- range hugo.Data.circles.list -}} {{- if eq
       (lower .id) (lower $tagName) -}} {{- $tagName = .name -}} {{- end -}} {{-
       end -}} {{- end -}} {{/* ------------------------------------------ */}}
 

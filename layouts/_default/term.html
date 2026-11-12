@@ -3,7 +3,7 @@
   {{- partial "breadcrumbs.html" . -}} {{/* --- ロジック開始: 名前と画像の取得
   --- */}} {{- $displayTitle := .Title -}} {{- $circleImg := "" -}} {{/*
   タグページの場合のみ処理を実行 */}} {{- if eq .Data.Singular "tag" -}} {{- if
-  site.Data.circles.list -}} {{- range site.Data.circles.list -}} {{/*
+  hugo.Data.circles.list -}} {{- range hugo.Data.circles.list -}} {{/*
   IDの一致確認（大文字小文字無視） */}} {{- if eq (lower .id) (lower
   $displayTitle) -}} {{/* 1. 表示名をデータファイルから取得したものに更新 */}}
   {{- $displayTitle = .name -}} {{/* 2. 画像リソースを検索 (png, jpg, jpeg, svg

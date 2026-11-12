@@ -1,0 +1,141 @@
+/* File: assets/css/extended/custom.css */
+
+/* ホームページの記事一覧のスタイル */
+.post-entry {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 24px 0;
+}
+
+/* ホームページの情報セクションのスタイル */
+/* .home-info .entry-content p {
+  display: block;
+  margin: 0 0 1rem;
+}
+.home-info .entry-content img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 1.5rem 0;
+} */
+
+/* 
+本文のスタイル
+ */
+
+/* 本文の行間 */
+.post-content {
+  line-height: 1.85;
+  overflow-wrap: break-word;
+}
+
+/* 段落の間隔 */
+.post-content p {
+  margin: 0 0 1.2em;
+}
+
+/* 見出しの前後の間隔 */
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+  margin: 1.8em 0 0.8em;
+  line-height: 1.4;
+}
+
+/* 見出しの大きさ */
+.post-content h1 {
+  font-size: 2em;
+}
+
+.post-content h2 {
+  font-size: 1.6em;
+}
+
+.post-content h3 {
+  font-size: 1.3em;
+}
+
+.post-content h4 {
+  font-size: 1.1em;
+}
+
+.post-content h5,
+.post-content h6 {
+  font-size: 1em;
+}
+
+/* 箇条書きの記号を本文領域内に収める */
+.post-content ul,
+.post-content ol {
+  margin: 0 0 1.2em;
+  padding-inline-start: 1.8em;
+  list-style-position: outside;
+}
+
+.post-content ul {
+  list-style-type: disc;
+}
+
+.post-content ol {
+  list-style-type: decimal;
+}
+
+.post-content li {
+  margin: 0.4em 0;
+}
+
+/* 入れ子のリスト */
+.post-content li > ul,
+.post-content li > ol {
+  margin: 0.4em 0;
+}
+
+/* 写真の前後の間隔 */
+.post-content img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.5em auto;
+}
+
+.post-content figure {
+  margin: 1.5em 0;
+}
+
+.post-content figure img {
+  margin: 0 auto;
+}
+
+.post-content figcaption {
+  margin-top: 0.6em;
+  line-height: 1.6;
+}
+
+/* リンクのスタイル */
+.post-content a {
+    text-decoration: underline;
+    color: #115292;
+}
+
+/* 記事の表紙画像のスタイル */
+.post-entry .entry-cover img,
+.first-entry .entry-cover img {
+  display: block;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* スマートフォンでは少し低くする */
+@media (max-width: 768px) {
+  .post-entry .entry-cover img,
+  .first-entry .entry-cover img {
+    height: 160px;
+  }
+}

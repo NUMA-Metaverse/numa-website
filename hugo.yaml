@@ -1,6 +1,6 @@
 # サイトの基本設定
 baseURL: "https://numa-meta.com/" # サイトの公開URL（重要：必ず完全なURLにしてください）
-title: "NUMA - Nippon Universities Metaverse Alliance"
+title: "NUMA 全日本大学メタバース連盟"
 copyright: "© [NUMA 全日本大学メタバース連盟](https://numa-meta.com/)"
 theme: PaperMod
 defaultContentLanguage: ja
@@ -31,7 +31,7 @@ pagination:
 # 言語設定
 languages:
   ja:
-    languageName: "日本語"
+    label: "日本語"
     weight: 1
     title: "NUMA 全日本大学メタバース連盟"
     taxonomies:
@@ -40,24 +40,18 @@ languages:
       series: series
     menu:
       main:
-        - name: "NUMAとは"
+        - name: "About Us"
           url: /aboutus
           weight: 1
         - name: "加盟団体"
           url: /members
           weight: 2
-        - name: "パートナー・協賛"
+        - name: "協賛・パートナー"
           url: /with-us
           weight: 3
-        - name: "Posts"
+        - name: "記事一覧"
           url: /posts
           weight: 5
-        - name: "Tags"
-          url: /tags
-          weight: 6
-        - name: "X"
-          url: "https://x.com/numa_meta_"
-          weight: 10
 
 # 出力フォーマット
 outputs:
@@ -69,7 +63,7 @@ outputs:
 # テーマ（PaperMod）のパラメータ設定
 params:
   env: production
-  description: "NUMA 全日本大学メタバース連盟の公式サイトです。NUMA (Nippon Universities Metaverse Alliance)は、日本全国のXR・メタバース系サークルの互助を実現する組織です。様々な知見を集積するだけでなく、お互いに切磋琢磨できる環境も実現します。"
+  description: "NUMA 全日本大学メタバース連盟 (Nippon Universities Metaverse Alliance) の公式サイトです。NUMAは、XR・メタバース学生団体の互助組織です。大学や地域を越え、知見の共有や交流、共同制作やイベント運営に取り組んでいます。"
   author: "NUMA 全日本大学メタバース連盟"
 
   # --- 表示と機能の切り替え ---
@@ -86,22 +80,29 @@ params:
 
   # --- ホームページの設定 ---
   homeInfoParams:
-    Title: "ホーム"
-    Content: >
-      🤝NUMAは日本全国のXR・メタバース系サークルの互助組織を目指します。
+    Title: ""
+    Content: |
+      ![NUMA 全日本大学メタバース連盟](/images/og-cover.png)
+
+      **NUMA 全日本大学メタバース連盟** は、XR・メタバース学生団体の互助組織です🤝  
+      大学や地域を越え、知見の共有や交流、共同制作やイベント運営に取り組んでいます✨  
+      → [もっとNUMAを知る 【About Us】](/aboutus)
+
+      **News** 📰  
+      2026年10月10日・11日 [全国学生VRサークル活動報告大会 & XR制作物プレゼン 2026](https://vrsc-2026.numa-meta.com/) 開催
+
+  socialIcons:
+    - name: x
+      url: "https://x.com/numa_meta_"
+    - name: Discord
+      url: "https://discord.gg/ZT32sdk6rv"
+
 
   # --- アセット（CSS, faviconなど）の設定 ---
   assets:
     customCSS: ["css/home-info.css"]
     favicon: "favicon/favicon.ico"
     disableHLJS: true # PaperMod内蔵のハイライトJSを無効化（Hugo標準のハイライト機能を使うため）
-
-  # --- SNSアイコン（必要に応じてコメントを外してURLを設定） ---
-  # socialIcons:
-  #   - name: X
-  #     url: "https://x.com/numa_meta_"
-  #   - name: Discord
-  #     url: ""
 
 # Markdownのレンダリング設定
 markup:
