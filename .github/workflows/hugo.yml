@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      HUGO_VERSION: 0.151.0
+      HUGO_VERSION: 0.164.0
       TZ: Asia/Tokyo
 
     steps:
