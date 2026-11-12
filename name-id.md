@@ -1,17 +1,17 @@
-- **OUS Metaverse**: `ous-metaverse`
-- **KAIT VR**: `kait-vr`
+- **HIT Metaverse**: `hit-metaverse`
 - **KU-virtual**: `ku-virtual`
-- **京都精華大学VR部**: `seika-vr`
+- **OUS Metaverse**: `ous-metaverse`
 - **SVRC**: `svrc`
 - **UT-virtual**: `ut-virtual`
 - **仮想空間研究会**: `tzuvss`
-- **東北大学メタバース研究会**: `tohoku-metaverse`
-- **N.U.メタバースの可能性を創造しよう！ (Nu.メタ創)**: `nu-metasou`
-- **HIT Metaverse**: `hit-metaverse`
 - **北海道大学メタバース研究会**: `hokkaido-metaverse`
-- **BluePrint**: `blueprint`
 - **山形大学VR部**: `yuvr`
+- **東北大学メタバース研究会**: `tohoku-metaverse`
+- **京都精華大学VR部**: `seika-vr`
+- **BluePrint**: `blueprint`
 - **山口VRサークル Fulldive Universal Gateway Unit (FUGU)**: `fugu`
+- **KAIT VR**: `kait-vr`
+- **N.U.メタバースの可能性を創造しよう！ (Nu.メタ創)**: `nu-nihon`
 - **公立千歳科学技術大学 プロジェクトメンバーVR班 (CIST プロメンVR)**: `prmn-vr`
 - **ZENVRサークル**: `zen-vr`
 - **大和大学 VRチーム**: `yamatovrteam`
