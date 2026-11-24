@@ -20,3 +20,4 @@
 - **東京電機大学コンピュータークラブ部VR班**: `TDUCC`
 - **早稲田大学VTuber研究会XR部**: `waseda-vtuber`
 - **工学院大学VRプロジェクト**: `kogakuin-vr`
+- **Meridian**: `Meridian`
