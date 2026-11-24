@@ -3,7 +3,7 @@ title: "東大の学祭に、NUMAのみんなで出展　全国の大学の仲�
 date: 2026-11-24T12:00:00+09:00
 categories: ["Blog"]
 tags: ["NUMA", "ut-virtual", "活動記録", "文化祭"]
-author: "クウナ"
+author: "Uni_Uni"
 description: "NUMAで声をかけたら、全国の大学から仲間が集まってくれました。みんなでわちゃわちゃ接客して、来てくれたお客さんは300人近く。夜は毎晩みんなでご飯。VRカフェ「虚空のティータイム」の3日間の記録です。"
 cover:
     image: "cheki_pair.jpg"
@@ -213,4 +213,4 @@ VRの中の教室は、現実の教室とぴったり重なっています。
 - **UT-virtual**: https://utvirtual.tech/
 - **NUMA 全日本大学メタバース連盟**: https://numa-meta.com/
 
-著者：クウナ（UT-virtual）
+著者：Uni_Uni
