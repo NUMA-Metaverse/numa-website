@@ -170,3 +170,10 @@
     - label: "公式Xアカウント"
       url: "https://x.com/ku_xrteam"
 
+- id: "Meridian"
+  name: "Meridian"
+  university: "明治大学"
+  links:
+    - label: "公式Xアカウント"
+      url: "https://x.com/meiji_meridian"
+
